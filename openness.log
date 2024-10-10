@@ -1,0 +1,52 @@
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ opened on:  10 Oct 2024, 11:56:24
+
+
+
+Variable      Storage   Display    Value
+    name         type    format    label      Variable label
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+year            int     %9.0g                 Year
+iso3_d          str3    %9s                   ISO3 destination
+reg             str19   %19s                  Region ISO3 destination
+pop_wb_d        double  %10.0g                Population ISO3 destination (World Bank)
+migt            double  %10.0g                # tertiary educated immigrants
+mignt           double  %10.0g                # less than tertiary educated immigrants
+mig             double  %10.0g                # all immigrants
+open_mig10      double  %9.0g                 Diversity-based openness (10/1M cutoff) Any skill level
+open_mig9       double  %9.0g                 Diversity-based openness (9/1M cutoff) any skill level
+open_mig8       double  %9.0g                 Diversity-based openness (8/1M cutoff) any skill level
+open_mig7       double  %9.0g                 Diversity-based openness (7/1M cutoff) any skill level
+open_mig6       double  %9.0g                 Diversity-based openness (6/1M cutoff) any skill level
+open_mig5       double  %9.0g                 Diversity-based openness (5/1M cutoff) any skill level
+open_mig4       double  %9.0g                 Diversity-based openness (4/1M cutoff) any skill level
+open_mig3       double  %9.0g                 Diversity-based openness (3/1M cutoff) any skill level
+open_mig2       double  %9.0g                 Diversity-based openness (2/1M cutoff) any skill level
+open_mig1       double  %9.0g                 Diversity-based openness (1/1M cutoff) any skill level
+open_migt10     double  %9.0g                 Diversity-based openness (10/1M cutoff) tertiary level
+open_migt9      double  %9.0g                 Diversity-based openness (9/1M cutoff) tertiary level
+open_migt8      double  %9.0g                 Diversity-based openness (8/1M cutoff) tertiary level
+open_migt7      double  %9.0g                 Diversity-based openness (7/1M cutoff) tertiary level
+open_migt6      double  %9.0g                 Diversity-based openness (6/1M cutoff) tertiary level
+open_migt5      double  %9.0g                 Diversity-based openness (5/1M cutoff) tertiary level
+open_migt4      double  %9.0g                 Diversity-based openness (4/1M cutoff) tertiary level
+open_migt3      double  %9.0g                 Diversity-based openness (3/1M cutoff) tertiary level
+open_migt2      double  %9.0g                 Diversity-based openness (2/1M cutoff) tertiary level
+open_migt1      double  %9.0g                 Diversity-based openness (1/1M cutoff) tertiary level
+open_mignt10    double  %9.0g                 Diversity-based openness (10/1M cutoff) <tertiary level
+open_mignt9     double  %9.0g                 Diversity-based openness (9/1M cutoff) <tertiary level
+open_mignt8     double  %9.0g                 Diversity-based openness (8/1M cutoff) <tertiary level
+open_mignt7     double  %9.0g                 Diversity-based openness (7/1M cutoff) <tertiary level
+open_mignt6     double  %9.0g                 Diversity-based openness (6/1M cutoff) <tertiary level
+open_mignt5     double  %9.0g                 Diversity-based openness (5/1M cutoff) <tertiary level
+open_mignt4     double  %9.0g                 Diversity-based openness (4/1M cutoff) <tertiary level
+open_mignt3     double  %9.0g                 Diversity-based openness (3/1M cutoff) <tertiary level
+open_mignt2     double  %9.0g                 Diversity-based openness (2/1M cutoff) <tertiary level
+open_mignt1     double  %9.0g                 Diversity-based openness (1/1M cutoff) <tertiary level
+avg_open_mig    float   %9.0g                 Average Diversity-based openness (cutoffs 5/1M to 10/1M) any skill level
+avg_open_migt   float   %9.0g                 Average Diversity-based openness (cutoffs 5/1M to 10/1M) <tertiary level
+avg_open_mignt  float   %9.0g                 Average Diversity-based openness (cutoffs 5/1M to 10/1M) tertiary level
+rank_open_mig   float   %9.0g                 Rank of openness towards all immigrants
+rank_open_migt  float   %9.0g                 Rank of openness towards tertiary educated immigrants
+rank_open_mignt float   %9.0g                 Rank of openness towards non-tertiary educated immigrants
+

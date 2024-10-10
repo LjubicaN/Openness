@@ -1,0 +1,48 @@
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ opened on:  10 Oct 2024, 11:56:24
+
+Variable      Storage   Display    Value
+    name         type    format    label      Variable label
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+year            int     %9.0g                 Year
+iso3_o          str3    %9s                   Origin ISO3 alphabetic
+iso3_d          str3    %9s                   Destination ISO3 alphabetic
+iso3num_o       int     %9.0g                 Origin ISO3 numeric
+iso3num_d       int     %9.0g                 Destination ISO3 numeric
+migt            double  %10.0g                Migrants tertiary education WB
+mignt           double  %10.0g                Migrants non-tertiary education WB
+mig             double  %10.0g                Migrants WB
+pop_wb_d        double  %10.0g                Destination Population
+pop_wb_o        double  %10.0g                Origin Population
+reg             str19   %19s                  Region of the place of destination
+open_mig10      float   %9.0g                 1: larger than expected immigrant group (10/1M cutoff)
+open_mig9       float   %9.0g                 1: larger than expected immigrant group (9/1M cutoff)
+open_mig8       float   %9.0g                 1: larger than expected immigrant group (8/1M cutoff)
+open_mig7       float   %9.0g                 1: larger than expected immigrant group (7/1M cutoff)
+open_mig6       float   %9.0g                 1: larger than expected immigrant group (6/1M cutoff)
+open_mig5       float   %9.0g                 1: larger than expected immigrant group (5/1M cutoff)
+open_mig4       float   %9.0g                 1: larger than expected immigrant group (4/1M cutoff)
+open_mig3       float   %9.0g                 1: larger than expected immigrant group (3/1M cutoff)
+open_mig2       float   %9.0g                 1: larger than expected immigrant group (2/1M cutoff)
+open_mig1       float   %9.0g                 1: larger than expected immigrant group (1/1M cutoff)
+open_migt10     float   %9.0g                 1: larger than expected immigrant group (10/1M cutoff)
+open_migt9      float   %9.0g                 1: larger than expected immigrant group (9/1M cutoff)
+open_migt8      float   %9.0g                 1: larger than expected immigrant group (8/1M cutoff)
+open_migt7      float   %9.0g                 1: larger than expected immigrant group (7/1M cutoff)
+open_migt6      float   %9.0g                 1: larger than expected immigrant group (6/1M cutoff)
+open_migt5      float   %9.0g                 1: larger than expected immigrant group (5/1M cutoff)
+open_migt4      float   %9.0g                 1: larger than expected immigrant group (4/1M cutoff)
+open_migt3      float   %9.0g                 1: larger than expected immigrant group (3/1M cutoff)
+open_migt2      float   %9.0g                 1: larger than expected immigrant group (2/1M cutoff)
+open_migt1      float   %9.0g                 1: larger than expected immigrant group (1/1M cutoff)
+open_mignt10    float   %9.0g                 1: larger than expected immigrant group (10/1M cutoff)
+open_mignt9     float   %9.0g                 1: larger than expected immigrant group (9/1M cutoff)
+open_mignt8     float   %9.0g                 1: larger than expected immigrant group (8/1M cutoff)
+open_mignt7     float   %9.0g                 1: larger than expected immigrant group (7/1M cutoff)
+open_mignt6     float   %9.0g                 1: larger than expected immigrant group (6/1M cutoff)
+open_mignt5     float   %9.0g                 1: larger than expected immigrant group (5/1M cutoff)
+open_mignt4     float   %9.0g                 1: larger than expected immigrant group (4/1M cutoff)
+open_mignt3     float   %9.0g                 1: larger than expected immigrant group (3/1M cutoff)
+open_mignt2     float   %9.0g                 1: larger than expected immigrant group (2/1M cutoff)
+open_mignt1     float   %9.0g                 1: larger than expected immigrant group (1/1M cutoff)
+
