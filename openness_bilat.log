@@ -1,48 +1,87 @@
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
- opened on:  10 Oct 2024, 11:56:24
+--------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\ljubi\Dropbox (Personal)\Templeton 2.0\2022 Templeton Leveraging Talent\log/
+> openness_bilat.log
+  log type:  text
+ opened on:  30 Jan 2025, 11:18:24
+
+. describe _all
 
 Variable      Storage   Display    Value
     name         type    format    label      Variable label
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-year            int     %9.0g                 Year
+--------------------------------------------------------------------------------------------------
+year            float   %9.0g                 Year
 iso3_o          str3    %9s                   Origin ISO3 alphabetic
 iso3_d          str3    %9s                   Destination ISO3 alphabetic
 iso3num_o       int     %9.0g                 Origin ISO3 numeric
 iso3num_d       int     %9.0g                 Destination ISO3 numeric
-migt            double  %10.0g                Migrants tertiary education WB
-mignt           double  %10.0g                Migrants non-tertiary education WB
-mig             double  %10.0g                Migrants WB
-pop_wb_d        double  %10.0g                Destination Population
-pop_wb_o        double  %10.0g                Origin Population
+migt_wb         double  %10.0g                Bilateral migration stocks, tertiary, WB-based
+mignt_wb        double  %10.0g                Bilateral migration stocks, non-tertiary, WB-based
+mig_wb          double  %10.0g                Bilateral migration stocks, all, WB-based
+pop_wb_d        double  %10.0g                Population, place of destination, WB data
+pop_wb_o        double  %10.0g                Population, place of origin, WB data
+mig_un          float   %9.0g                 Bilateral migration stocks, all, UN-based
 reg             str19   %19s                  Region of the place of destination
-open_mig10      float   %9.0g                 1: larger than expected immigrant group (10/1M cutoff)
-open_mig9       float   %9.0g                 1: larger than expected immigrant group (9/1M cutoff)
-open_mig8       float   %9.0g                 1: larger than expected immigrant group (8/1M cutoff)
-open_mig7       float   %9.0g                 1: larger than expected immigrant group (7/1M cutoff)
-open_mig6       float   %9.0g                 1: larger than expected immigrant group (6/1M cutoff)
-open_mig5       float   %9.0g                 1: larger than expected immigrant group (5/1M cutoff)
-open_mig4       float   %9.0g                 1: larger than expected immigrant group (4/1M cutoff)
-open_mig3       float   %9.0g                 1: larger than expected immigrant group (3/1M cutoff)
-open_mig2       float   %9.0g                 1: larger than expected immigrant group (2/1M cutoff)
-open_mig1       float   %9.0g                 1: larger than expected immigrant group (1/1M cutoff)
-open_migt10     float   %9.0g                 1: larger than expected immigrant group (10/1M cutoff)
-open_migt9      float   %9.0g                 1: larger than expected immigrant group (9/1M cutoff)
-open_migt8      float   %9.0g                 1: larger than expected immigrant group (8/1M cutoff)
-open_migt7      float   %9.0g                 1: larger than expected immigrant group (7/1M cutoff)
-open_migt6      float   %9.0g                 1: larger than expected immigrant group (6/1M cutoff)
-open_migt5      float   %9.0g                 1: larger than expected immigrant group (5/1M cutoff)
-open_migt4      float   %9.0g                 1: larger than expected immigrant group (4/1M cutoff)
-open_migt3      float   %9.0g                 1: larger than expected immigrant group (3/1M cutoff)
-open_migt2      float   %9.0g                 1: larger than expected immigrant group (2/1M cutoff)
-open_migt1      float   %9.0g                 1: larger than expected immigrant group (1/1M cutoff)
-open_mignt10    float   %9.0g                 1: larger than expected immigrant group (10/1M cutoff)
-open_mignt9     float   %9.0g                 1: larger than expected immigrant group (9/1M cutoff)
-open_mignt8     float   %9.0g                 1: larger than expected immigrant group (8/1M cutoff)
-open_mignt7     float   %9.0g                 1: larger than expected immigrant group (7/1M cutoff)
-open_mignt6     float   %9.0g                 1: larger than expected immigrant group (6/1M cutoff)
-open_mignt5     float   %9.0g                 1: larger than expected immigrant group (5/1M cutoff)
-open_mignt4     float   %9.0g                 1: larger than expected immigrant group (4/1M cutoff)
-open_mignt3     float   %9.0g                 1: larger than expected immigrant group (3/1M cutoff)
-open_mignt2     float   %9.0g                 1: larger than expected immigrant group (2/1M cutoff)
-open_mignt1     float   %9.0g                 1: larger than expected immigrant group (1/1M cutoff)
+o_mig_un10      float   %9.0g                 Openness: >expected immigrant group (10/1M cutoff),
+                                                UN data
+o_mig_un9       float   %9.0g                 Openness: >expected immigrant group (9/1M cutoff),
+                                                UN data
+o_mig_un8       float   %9.0g                 Openness: >expected immigrant group (8/1M cutoff),
+                                                UN data
+o_mig_un7       float   %9.0g                 Openness: >expected immigrant group (7/1M cutoff),
+                                                UN data
+o_mig_un6       float   %9.0g                 Openness: >expected immigrant group (6/1M cutoff),
+                                                UN data
+o_mig_un5       float   %9.0g                 Openness: >expected immigrant group (5/1M cutoff),
+                                                UN data
+o_mig_un4       float   %9.0g                 Openness: >expected immigrant group (4/1M cutoff),
+                                                UN data
+o_mig_un3       float   %9.0g                 Openness: >expected immigrant group (3/1M cutoff),
+                                                UN data
+o_mig_un2       float   %9.0g                 Openness: >expected immigrant group (2/1M cutoff),
+                                                UN data
+o_mig_un1       float   %9.0g                 Openness: >expected immigrant group (1/1M cutoff),
+                                                UN data
+o_migt_dioc10   float   %9.0g                 Openness to tertiary: >expected immigrant group
+                                                (10/1M cutoff), DIOC data
+o_migt_dioc9    float   %9.0g                 Openness to tertiary: >expected immigrant group
+                                                (9/1M cutoff), DIOC data
+o_migt_dioc8    float   %9.0g                 Openness to tertiary: >expected immigrant group
+                                                (8/1M cutoff), DIOC data
+o_migt_dioc7    float   %9.0g                 Openness to tertiary: >expected immigrant group
+                                                (7/1M cutoff), DIOC data
+o_migt_dioc6    float   %9.0g                 Openness to tertiary: >expected immigrant group
+                                                (6/1M cutoff), DIOC data
+o_migt_dioc5    float   %9.0g                 Openness to tertiary: >expected immigrant group
+                                                (5/1M cutoff), DIOC data
+o_migt_dioc4    float   %9.0g                 Openness to tertiary: >expected immigrant group
+                                                (4/1M cutoff), DIOC data
+o_migt_dioc3    float   %9.0g                 Openness to tertiary: >expected immigrant group
+                                                (3/1M cutoff), DIOC data
+o_migt_dioc2    float   %9.0g                 Openness to tertiary: >expected immigrant group
+                                                (2/1M cutoff), DIOC data
+o_migt_dioc1    float   %9.0g                 Openness to tertiary: >expected immigrant group
+                                                (1/1M cutoff), DIOC data
+o_mignt_dioc10  float   %9.0g                 Openness to non-tertiary: >expected immigrant group
+                                                (10/1M cutoff), DIOC data
+o_mignt_dioc9   float   %9.0g                 Openness to non-tertiary: >expected immigrant group
+                                                (9/1M cutoff), DIOC data
+o_mignt_dioc8   float   %9.0g                 Openness to non-tertiary: >expected immigrant group
+                                                (8/1M cutoff), DIOC data
+o_mignt_dioc7   float   %9.0g                 Openness to non-tertiary: >expected immigrant group
+                                                (7/1M cutoff), DIOC data
+o_mignt_dioc6   float   %9.0g                 Openness to non-tertiary: >expected immigrant group
+                                                (6/1M cutoff), DIOC data
+o_mignt_dioc5   float   %9.0g                 Openness to non-tertiary: >expected immigrant group
+                                                (5/1M cutoff), DIOC data
+o_mignt_dioc4   float   %9.0g                 Openness to non-tertiary: >expected immigrant group
+                                                (4/1M cutoff), DIOC data
+o_mignt_dioc3   float   %9.0g                 Openness to non-tertiary: >expected immigrant group
+                                                (3/1M cutoff), DIOC data
+o_mignt_dioc2   float   %9.0g                 Openness to non-tertiary: >expected immigrant group
+                                                (2/1M cutoff), DIOC data
+o_mignt_dioc1   float   %9.0g                 Openness to non-tertiary: >expected immigrant group
+                                                (1/1M cutoff), DIOC data
 
+. 
+. cap log close
